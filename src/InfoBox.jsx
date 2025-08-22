@@ -20,7 +20,7 @@ const RAIN_URL = "https://media.istockphoto.com/id/616095920/photo/summer-storm.
       <div className='cardContainer'>
       <Card sx={{ maxWidth: 345 }}>
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 150 }}
         image={
             info.humidity > 80 ? RAIN_URL 
             : info.temp > 15 
